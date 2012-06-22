@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+div {
+	position: relative;
+}
+
+a {
+	color: white;
+	text-decoration: underline;
+	padding: 5px 8px;
+	margin: 0 -8px;
+}
+
+a:hover {
+	background: rgba(255,255,255,.3);
+	border-radius: 5px;
+}
+
+.clear {
+	clear: both;
+}
+
+h1 {
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 1.3em;
+	padding-bottom: .5em;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 1.3em;
+	padding-bottom: .5em;
+}
+
+
+
+
+div#container {
+	margin: 80px 0 130px;
+}
+
+div.section {
+	background: black;
+	margin-bottom: 5px;
+	color: white;
+}
+
+div.section .section-middle {
+	max-width: 1000px;
+}
+
+div.section .section-inner {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 30px 0;
+	min-width: 660px;
+}
+
+div.section .graphic {
+	width: 130px;
+	height: 80px;
+	margin: 0 0 0 10px;
+	float: left;
+}
+
+div.section .content {
+	float: left;
+}
+
+
+
+
+
+div.section#hello {
+	background: #31BBDD;
+}
+
+div.section#hello .section-inner {
+	background: #22B3D9;
+	padding: 50px 0;
+}
+
+div.section#hello .graphic {
+	top: 2px;
+	background: no-repeat center center url(images/graphic-hello.png);
+}
+
+
+div.section#ftw {
+	background: #34DE99;
+}
+
+div.section#ftw .section-inner {
+	background: #27DA8D;
+}
+
+div.section#ftw .graphic {
+	background: no-repeat center center url(images/graphic-ftw.png);
+}
+
+
+div.section#contact {
+	background: #DED43B;
+}
+
+div.section#contact .section-inner {
+	background: #DACF2F;
+}
+
+div.section#contact .graphic {
+	top: -8px;
+	background: no-repeat center center url(images/graphic-contact.png);
+}
+
+
+div.section#archive {
+	background: #DD9C34;
+}
+
+div.section#archive .section-inner {
+	background: #D99126;
+}
+
+div.section#archive .graphic {
+	top: -4px;
+	background: no-repeat center center url(images/graphic-archive.png);
+}
+
+
+
+
+
+
