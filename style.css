@@ -4,9 +4,28 @@
 }
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
-	color: #023942;
-	background-color: #E8E4D9;
+	/*color: #032F42;*/
+	color: #000;
+	font-family: Georgia, serif;
+	font-size: 16px;
+}
+
+p {
+	line-height: 1.5em;
+	font-size: 16px;
+	margin: 0 0 1.5em;
+}
+
+h1, h2, h3, h4 {
+	font-family: Gotham, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 16px;
+	margin: 0 0 1.4em;
+	text-align: center;
 }
 
 div {
@@ -14,38 +33,24 @@ div {
 }
 
 a {
-	color: #023942;
-	text-decoration: none;
-	border-bottom: solid 2px #023942;
-	position: relative;
-	top: -.18em;
-}
-
-a span {
-	position: relative;
-	top: .18em;
+	color: #098DC8;
+	text-decoration: underline;
 }
 
 a:hover {
-	color: #006272;
-	text-shadow: 0 1px 0 #FFFFFF;
-	border-bottom-color: #006272;
+	color: #61C8B4;
+}
+
+a:visited {
+	color: #871790;
+}
+
+a:visited:hover {
+	color: #61C8B4;
 }
 
 .clear {
 	clear: both;
-}
-
-h1 {
-	font-size: 32px;
-	font-weight: bold;
-	margin: 0 0 1em;
-}
-
-p {
-	line-height: 1.4em;
-	font-size: 24px;
-	margin: 0 0 1em;
 }
 
 
@@ -60,7 +65,8 @@ div#container {
 div#container2 {
 	/*background: blue;*/
 	margin: 80px auto 130px;
-	width: 70%;
-	min-width: 400px;
+	/*width: 70%;*/
+	min-width: 200px;
+	max-width: 600px;
 }
 
