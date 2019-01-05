@@ -1,72 +1,58 @@
 * {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	/*color: #032F42;*/
-	color: #000;
-	font-family: Georgia, serif;
-	font-size: 16px;
+  color: #000;
+  font-family: Georgia, serif;
+  font-size: 16px;
 }
 
 p {
-	line-height: 1.5em;
-	font-size: 16px;
-	margin: 0 0 1.5em;
+  line-height: 1.5em;
+  font-size: 16px;
+  margin: 0 0 1.5em;
 }
 
-h1, h2, h3, h4 {
-	font-family: Gotham, Helvetica, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: Gotham, Helvetica, Arial, sans-serif;
 }
 
 h1 {
-	text-transform: uppercase;
-	letter-spacing: .1em;
-	font-size: 16px;
-	margin: 0 0 1.4em;
-	text-align: center;
-}
-
-div {
-	position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  margin: 0 0 1.4em;
+  text-align: center;
 }
 
 a {
-	color: #098DC8;
-	text-decoration: underline;
+  color: #098dc8;
+  text-decoration: underline;
 }
 
 a:hover {
-	color: #61C8B4;
+  color: #61c8b4;
 }
 
 a:visited {
-	color: #871790;
+  color: #871790;
 }
 
 a:visited:hover {
-	color: #61C8B4;
+  color: #61c8b4;
 }
 
-.clear {
-	clear: both;
+#outer-container {
+  margin: 0 40px;
 }
 
-
-
-
-
-div#container {
-	/*background: red;*/
-	margin: 0 40px;
+#inner-container {
+  margin: 80px auto 130px;
+  min-width: 200px;
+  max-width: 600px;
 }
-
-div#container2 {
-	/*background: blue;*/
-	margin: 80px auto 130px;
-	/*width: 70%;*/
-	min-width: 200px;
-	max-width: 600px;
-}
-
