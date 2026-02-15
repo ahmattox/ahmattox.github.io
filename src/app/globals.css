@@ -1,0 +1,55 @@
+:root {
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --accent-color: #098dc8;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--background-color);
+  font-family: var(--font-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #61c8b4;
+}
+
+a:visited {
+  color: #871790;
+}
+
+a:visited:hover {
+  color: #61c8b4;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}

@@ -1,0 +1,23 @@
+.outerContainer {
+  margin: 0 40px;
+}
+
+.innerContainer {
+  margin: 80px auto 130px;
+  min-width: 200px;
+  max-width: 600px;
+}
+
+.h1 {
+  font-family: var(--font-sans);
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  margin: 0 0 1.4em;
+  text-align: center;
+}
+
+.p {
+  line-height: 1.5em;
+  font-size: 16px;
+  margin: 0 0 1.5em;
+}
